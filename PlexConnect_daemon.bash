@@ -1,5 +1,14 @@
 #!/bin/bash
 
+### BEGIN INIT INFO
+# Provides:         PlexConnect
+# Required-Start:   plexmediaserver
+# Required-Stop:    plexmediaserver
+# Default-Start:    3 4 5
+# Default-Stop:     0 1 6
+# Short-Description:     PlexConnect server
+### END INIT INFO
+
 #
 # Linux PlexConnect start stop script
 #
